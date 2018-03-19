@@ -17,7 +17,7 @@ for (var dev in ifaces) {
 app.get('/hpub/:path*', function(req, res) {
   const hpub_path = req.params['path'] + req.params[0]
   if (fs.existsSync(hpub_path)) {
-    res.sendFile(hpub_path, { root: __dirname })
+    res.sendFile(hpub_path, { root: process.cwd() })
   }else{
     res.status(404)
     res.end('File not Found')
