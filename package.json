@@ -21,6 +21,7 @@
   "devDependencies": {
     "connect": "^3.6.6",
     "eslint": "^4.19.0",
-    "eslint-plugin-node": "^6.0.1"
+    "eslint-plugin-node": "^6.0.1",
+    "express-zip": "^2.0.1"
   }
 }

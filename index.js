@@ -5,6 +5,7 @@ const path = require('path')
 const fs = require('fs')
 const changeCase = require('change-case')
 const express = require('express')
+require('express-zip')
 const app = express()
 const port = 8989
 
@@ -17,7 +18,14 @@ for (var dev in ifaces) {
 app.get('/hpub/:path*', function(req, res) {
   const hpub_path = req.params['path'] + req.params[0]
   if (fs.existsSync(hpub_path)) {
-    res.sendFile(hpub_path, { root: process.cwd() })
+    if (fs.lstatSync(hpub_path).isDirectory()) {
+      const zipContents = glob.sync(`${hpub_path}/**/*`)
+        .filter(file_path => fs.lstatSync(file_path).isFile())
+        .map(file_path => ({ path: file_path, name: path.relative(hpub_path, file_path) }))
+      res.zip(zipContents, path.basename(hpub_path))
+    }else{
+      res.sendFile(hpub_path, { root: process.cwd() })
+    }
   }else{
     res.status(404)
     res.end('File not Found')
