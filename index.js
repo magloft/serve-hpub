@@ -32,6 +32,16 @@ app.get('/hpub/:path*', function(req, res) {
   }
 })
 
+app.get('/:path*.png', function(req, res) {
+  const cover_path = req.params['path'] + req.params[0] + ".png"
+  if (fs.existsSync(cover_path)) {
+    res.sendFile(cover_path, { root: process.cwd() })
+  }else{
+    res.status(404)
+    res.end('File not Found')
+  }
+})
+
 app.get('/manifest.json', function(req, res) {
   res.json(glob.sync('**/*.hpub').map((hpub_path, index) => ({
     'id': index + 1,
@@ -43,6 +53,7 @@ app.get('/manifest.json', function(req, res) {
     'info': hpub_path,
     'date': '2018-01-01 00:00:00',
     'url': `http://${address}:${port}/hpub/${hpub_path}`,
+    'cover': `http://${address}:${port}/${hpub_path}/cover.png`,
     'categories': []
   })))
 })
