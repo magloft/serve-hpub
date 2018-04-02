@@ -1,6 +1,6 @@
 {
   "name": "serve-hpub",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Serve HPUB Manifest JSON",
   "main": "index.js",
   "bin": "./index.js",
