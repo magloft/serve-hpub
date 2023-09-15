@@ -1,6 +1,6 @@
 {
   "name": "serve-hpub",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Serve HPUB Files",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
   "license": "MIT",
