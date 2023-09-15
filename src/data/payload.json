@@ -1,0 +1,300 @@
+{
+  "bundle": {
+    "app_id": "com.magloft.magazine",
+    "title": "MagLoft - Digital Magazines",
+    "publishing_status": "custom",
+    "hash": "a1798fde431b804ef1acbf074443e575",
+    "properties": {
+      "id": 102,
+      "shelf_title": "Magloft - Digital Magazine",
+      "events": [],
+      "app_bundle_spec": "",
+      "subscription_info": "MagLoft - Digital Magazines offers the following auto-renewable subscriptions:\n- Yearly Subscription ($0.99)\n\nPayment will be charged to your Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by you and auto-renewal may be turned off by going to your user's Account Settings after purchase. No cancellation of the current subscription is allowed during active subscription period. Any unused portion of a free trial period, if offered, will be forfeited when you purchase a subscription to MagLoft - Digital Magazines.\nFor more information please see our privacy policy at https://www.magloft.com/publications/102/privacy and our terms of use at https://www.magloft.com/publications/102/terms.",
+      "dbm_basic_subscription_info": "MagLoft - Digital Magazines offers the following auto-renewable subscriptions:\n- Yearly Subscription ($0.99)\n\nPayment will be charged to your Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by you and auto-renewal may be turned off by going to your user's Account Settings after purchase. No cancellation of the current subscription is allowed during active subscription period. Any unused portion of a free trial period, if offered, will be forfeited when you purchase a subscription to MagLoft - Digital Magazines.\nFor more information please see our privacy policy at https://www.magloft.com/publications/102/privacy and our terms of use at https://www.magloft.com/publications/102/terms.",
+      "marketing_url": "https://www.magloft.com/",
+      "dbm_basic_marketing_url": "https://www.magloft.com/",
+      "google_tracking_code": "UA-65032584-5",
+      "shelf_image_repeat": "repeat",
+      "app_shelf_image_repeat": "repeat",
+      "app_icon": "secure/102/properties.app_icon/c80d3c76-1c77-4340-94b8-c47eb2051009/properties.app_icon.png",
+      "asset_large_app_icon": "secure/102/properties.app_icon/c80d3c76-1c77-4340-94b8-c47eb2051009/properties.app_icon.png",
+      "feature_graphic": "secure/key/png/859d49c8-fcd3-46ba-afd9-0db50d03d372/key.png",
+      "asset_feature_graphic": "secure/key/png/859d49c8-fcd3-46ba-afd9-0db50d03d372/key.png",
+      "app_issue_cell_type": "simple",
+      "app_subscriptions": [
+        "com.magloft.free.subscription"
+      ],
+      "app_subscription_detail": [
+        {
+          "title": "MagLoft - Digital Magazines - Monthly Subscription",
+          "info": "will be charged every 1 year",
+          "amount": 99,
+          "price": "$0.99",
+          "price_tier": 1,
+          "unlock_type": "latest",
+          "every": "1 year",
+          "duration": "1 year",
+          "description": "The subscription renews every year.",
+          "additional_description": "",
+          "trial": "",
+          "cover": "//cdn.magloft.com/secure/102/properties.app_icon/c80d3c76-1c77-4340-94b8-c47eb2051009/properties.app_icon.png",
+          "apple": "com.magloft.paid.subscription",
+          "amazon": "com.magloft.free.subscription",
+          "google": "com.magloft.free.subscription",
+          "legacy": [],
+          "stripe": "magloft-sub-102-556"
+        }
+      ],
+      "app_subscriptions_hidden": [
+        "magloft.sub.11634.558",
+        "magloft-sub-11634-558",
+        "magloft.sub.11971.561",
+        "magloft-sub-11971-561",
+        "magloft.sub.11971.560",
+        "magloft-sub-11971-560",
+        "magloft.sub.11634.553",
+        "magloft-sub-11634-553"
+      ],
+      "app_show_account": true,
+      "app_show_banner": true,
+      "app_enable_signup": true,
+      "app_enable_issue_screenshots": true,
+      "app_enable_token_parser": true,
+      "app_contact_enable_phone_number": false,
+      "app_show_redeem_coupon": true,
+      "app_enable_preview_mode": true,
+      "app_enable_ratings": true,
+      "app_review_mode": false,
+      "app_show_issue_shelf": true,
+      "app_show_article_shelf": true,
+      "app_show_newsletter_setting": true,
+      "app_show_search_filter": true,
+      "app_custom_signup_text": "We keep your privacy safe and secure.",
+      "app_info_tab_html": "<h2>About</h2>\n<p>This magazine is built in the MagLoft.com online editor. It's super fast and easy to create magazines and issues using our free online tool.MagLoft allows you to very quickly and easily create your own digital publications (iOS, Android Web). MagLoft is also the most affordable solution available. We want to make app publishing available for everyone.</p>\n<h2>Customization</h2>\n<p>Everything can be customized to your own brand including colors, icons, graphics, links and more. Even this info are can be edited to only include information about your company and/or publication.</p>\n<h2>Create Your Own Magazine</h2>\n<p>Use MagLoft to get started for free and publish awesome HTML5 interactive and responsive magazine in your niche! They work on all devices and screen sizes.&#160;</p>\n<p>Visit <a href=\"http://www.magloft.com/?utm_campaign=app-references&amp;utm_medium=native-app&amp;utm_source=magloft&amp;utm_content=info-tab\" target=\"\">http://www.MagLoft.com</a>&#160;today for more information.</p>\n",
+      "app_categories": [],
+      "app_categories_articles": [],
+      "app_categories_issues": [],
+      "app_modules": [
+        {
+          "id": "navBar",
+          "label": "TOP BAR",
+          "active": true,
+          "static": true,
+          "sticky": false,
+          "appIcon": true,
+          "appTitle": true,
+          "titleColor": "#fffefe",
+          "buttonColor": "#fffefe",
+          "backgroundColor": "#0f75bc"
+        },
+        {
+          "id": "articleList",
+          "label": "ARTICLES",
+          "active": true,
+          "static": true,
+          "titleColor": "#424242",
+          "unlockButton": true,
+          "categoryColor": "#276fa0",
+          "backgroundColor": "#f5f5f5",
+          "articleCardColor": "#fffefe",
+          "descriptionColor": "#424242",
+          "coverBackgroundColor": "#EDEDED",
+          "unlockButtonTextColor": "#fefeff",
+          "unlockButtonBackgroundColor": "#2ac000"
+        },
+        {
+          "id": "tabBar",
+          "label": "BOTTOM BAR",
+          "active": true,
+          "static": true,
+          "iconColor": "#fafafa",
+          "titleColor": "#fafafa",
+          "backgroundColor": "#374085"
+        },
+        {
+          "id": "issueSpotlight",
+          "label": "ISSUE SLIDER",
+          "active": true,
+          "design": true,
+          "static": false,
+          "clipCover": true,
+          "showButton": true,
+          "titleColor": "#000000",
+          "badgeTextColor": "#ffffff",
+          "selectedIssues": [
+            11070,
+            11097,
+            15159,
+            24771
+          ],
+          "backgroundColor": "#f5f5f5",
+          "showDescription": true,
+          "descriptionColor": "#000000",
+          "actionButtonColor": "#276fa0",
+          "archiveButtonColor": "#891b1b",
+          "cardBackgroundColor": "#fffefe",
+          "badgeBackgroundColor": "#000000",
+          "subscribeButtonColor": "#276fa0",
+          "showBadgeForFreeIssue": true
+        },
+        {
+          "id": "subscriptions",
+          "label": "SUBSCRIBE BAR",
+          "active": true,
+          "static": false,
+          "iconColor": "#fffefe",
+          "titleText": "SUBSCRIBE NOW CLICK HERE",
+          "titleColor": "#fffefe",
+          "buttonColor": "#fefeff",
+          "backgroundColor": "#1f96e5",
+          "descriptionText": "Become a subscriber and never miss an issue",
+          "descriptionColor": "#fffefe"
+        },
+        {
+          "id": "issueList",
+          "label": "ISSUE LIST",
+          "active": true,
+          "static": false,
+          "showDate": true,
+          "dateColor": "#999999",
+          "itemStyle": "right",
+          "titleColor": "#000000",
+          "showOverlay": true,
+          "categoryColor": "#6c9de1",
+          "descriptionColor": "#212121",
+          "actionButtonColor": "#4caf50",
+          "archiveButtonColor": "#891b1b",
+          "showSpotlightIssue": false,
+          "cardBackgroundColor": "#fefffe",
+          "shelfBackgroundColor": "#f5f5f5",
+          "subscribeButtonColor": "#276fa0"
+        },
+        {
+          "id": "issueCategories",
+          "label": "CATEGORIES SLIDER",
+          "active": false,
+          "static": false,
+          "categories": [
+            6,
+            11618
+          ],
+          "categorySort": "date_desc",
+          "backgroundColor": "#ffffff",
+          "categoryTextColor": "#030303",
+          "cardBackgroundColor": "#276fa0"
+        },
+        {
+          "id": "accountBar",
+          "label": "ACCOUNT BAR",
+          "active": false,
+          "static": false,
+          "textColor": "#fefeff",
+          "backgroundColor": "#1c5c88"
+        }
+      ],
+      "app_modules_schema": 1,
+      "app_bundle_version": "2.3.6",
+      "app_react_icon": "magloft-icon-default.png",
+      "app_show_social_login": false,
+      "app_wikitude_collections_urls": [],
+      "app_launch_type": "image",
+      "app_launch_image": "secure/102/properties.app_launch_image/374f9643-d6b3-4064-9451-936ddfdbf1b0/properties.app_launch_image.png",
+      "app_banner_autoplay_interval": "0",
+      "app_enable_related_articles": true,
+      "app_subscription_trial_background_color": "#5C5C5C",
+      "app_subscription_trial_text_color": "#FFFFFF",
+      "app_issue_reader_config": {
+        "content": {
+          "pdf": {
+            "background_color": "#666666"
+          }
+        },
+        "navigation": {
+          "sticky": false,
+          "index_button": false
+        }
+      },
+      "app_enable_email_change": true,
+      "app_enable_delete_account": true,
+      "app_privacy_policy": "<h2>PRIVACY POLICY</h2>\n<p>This page is used to inform app users regarding our policies with the collection, use, and disclosure of Personal Information.</p>\n<p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>\n\n<h3>INFORMATION COLLECTION AND USE</h3>\n<p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to name and email address. The information that we request will be retained by us and used as described in this privacy policy.</p>\n<p>The app uses the following third party services that may collect general usage information:</p>\n<p>Google Play Services</p>\n<p>Firebase Analytics</p>\n\n<h3>LOG DATA</h3>\n<p>We want to inform you that in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device type, operating system version, the configuration of the app, the time and date of the error, and other similar statistics. This Log Data is sent to our Backend for Analysis to identify and resolve any problems with using the App and to improve the overall quality of our App.</p>\n\n<h3>SECURITY</h3>\n<p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>\n\n<h3>LINKS TO OTHER SITES</h3>\n<p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>\n\n<h3>CHILDRENS PRIVACY</h3>\n<p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.</p>\n\n<h3>CHANGES TO THIS PRIVACY POLICY</h3>\n<p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</p>\n\n<h3>CONTACT US</h3>\n<p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>\n",
+      "app_terms_of_service": "  <h2>SUBSCRIPTION TERMS AND CONDITIONS</h2>  <pre>MagLoft - Digital Magazines offers the following auto-renewable subscriptions:&#10;- Yearly Subscription ($0.99)&#10;&#10;Payment will be charged to your Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by you and auto-renewal may be turned off by going to your user's Account Settings after purchase. No cancellation of the current subscription is allowed during active subscription period. Any unused portion of a free trial period, if offered, will be forfeited when you purchase a subscription to MagLoft - Digital Magazines.&#10;For more information please see our privacy policy at http://www.magloft.com/publications/102/privacy and our terms of use at http://www.magloft.com/publications/102/terms.</pre><h2>GENERAL TERMS AND CONDITIONS</h2><h3>1. General</h3><p>By installing the App (as defined below), you agree to be bound by these terms of use (the &#34;Terms of Use&#34;). Please review them carefully before installation and/or acceptance.</p><h3>2. Definitions</h3><p>The &#34;App&#34; shall mean MagLoft - Digital Magazines, to offer services related to reading and purchasing digital content, to be used on Apple iOS, Android devices and any upgrades from time to time and any other software or documentation which enables the use of the App.</p><h3>3. Data Protection</h3><p>Any personal information you supply to MagLoft - Digital Magazines when using the App will be used by MagLoft - Digital Magazines in accordance with its Privacy Policy.</p><h3>4. The App</h3><p>The App may allow you to access certain functionalities available on the MagLoft - Digital Magazines website. Such access will be governed by the MagLoft - Digital Magazines Website Terms of Use.</p><h3>5. Proprietary Rights and Licence</h3><p>5.1 All trade marks, content, images, and other intellectual property rights of any nature in the App are owned directly either by MagLoft - Digital Magazines or MagLoft - Digital Magazines's licensors.</p><p>5.2 MagLoft - Digital Magazines hereby grants you a worldwide, non-exclusive, royalty-free revocable licence to use the App for your business and personal use in accordance with these Terms of Use.</p><h3>6. Conditions of Use</h3><p>6.1 You will not, nor allow third parties on your behalf to:</p><p>(a) make and distribute copies of the App;</p><p>(b) attempt to copy, reproduce, alter, modify, reverse engineer, disassemble, decompile, transfer, exchange, or translate the App; or</p><p>(c) create derivative works of the App of any kind whatsoever.</p><p>6.2 The App is currently made available to you free of charge for your personal, non-commercial use. MagLoft - Digital Magazines reserves the right to amend or withdraw the App or charge for the App or service provided to you in accordance with these Terms of Use at any time and for any reason.</p><p>6.3 You acknowledge that the terms of agreement with your respective mobile network provider (the &#34;Mobile Provider&#34;) will continue to apply when using the App. As a result, you may be charged by the Mobile Provider for access to network connection services for the duration of the connection while accessing the App or for any such third party charges as may arise. You accept responsibility for any such charges that arise.</p><p>6.4 If you are not the bill payer for the mobile telephone or handheld device being used to access the App, you will be assumed to have received permission from the bill payer for using the App.</p><h3>7. Availability</h3><p>7.1 This App is available to handheld mobile devices running Apple iOS, Android. MagLoft - Digital Magazines will use reasonable efforts to make the App available at all times. However, you acknowledge the App is provided on the Internet and on mobile networks, so the quality and availability of the App may be affected by factors outside MagLoft - Digital Magazines's reasonable control.</p><p>7.2 MagLoft - Digital Magazines, its group of companies, and its sub-contractors do not accept any responsibility whatsoever for unavailability of the App or any difficulty or inability to download or access content or any other communication system failure which may result in the App being unavailable.</p><p>7.3 MagLoft - Digital Magazines will not be responsible for any support or maintenance for the App.</p><h3>8. System Requirements</h3><p>8.1 In order to use the App, you are required to have a compatible mobile telephone or handheld device, Internet access, and the necessary minimum specifications (the &#34;Software Requirements&#34;).</p><p>8.2 The Software Requirements are as follows: iOS version 8.0 or greater and Android version 4.4 or greater.</p><p>8.3 The version of the App software may be upgraded from time to time to add support for new functions and services.</p><h3>9. Termination</h3><p>9.1 MagLoft - Digital Magazines may terminate use of the App at any time by giving notice of termination to you.</p><p>9.2 Upon any termination:</p><p>(a) the rights and licences granted to you herein shall terminate; and</p><p>(b) you must cease all use of the software.</p><h3>10. Limitation of Liability</h3><p>10.1 In no event will MagLoft - Digital Magazines be liable for any direct, indirect, special, punitive, exemplary, or consequential losses or damages of whatsoever kind arising out of your use of or access to the App, including loss of profit or the like whether or not in the contemplation of the parties or whether based on breach of contract, tort (including negligence), product liability, or otherwise.</p><p>10.2 MagLoft - Digital Magazines is not liable to you for any damage or alteration to your equipment, including but not limited to computer equipment, handheld devices, or mobile telephones, as a result of the installation or use of the App.</p><p>10.3 Nothing in these Terms of Use shall exclude or limit MagLoft - Digital Magazines's liability for death or personal injury caused by negligence or for fraud or fraudulent misrepresentation or any other liability which cannot be excluded or limited under the applicable law.</p><h3>11. Disclaimer of Warranties</h3><p>To the maximum extent permitted by law, and for the avoidance of doubt, MagLoft - Digital Magazines hereby disclaims all implied warranties with regard to the App. The App and software are provided &#34;as is&#34; and &#34;as available&#34; without warranty of any kind.</p><!-- <h3>12. Governing Law and Jurisdiction</h3> --><!-- <p>This Terms of Use shall be governed by the laws of Singapore. You agree to submit to the exclusive jurisdiction of the Singapore courts.</p> --><p>For any query, please email to </p><p><a href=\"mailto:support@magloft.com\">support@magloft.com</a></p><p>.</p>",
+      "terms_privacy_confirmed": true,
+      "one_signal_app_id": "44ce5c29-4951-4b13-ae89-ef2adedba7d5",
+      "oneSignalApplicationID": "44ce5c29-4951-4b13-ae89-ef2adedba7d5",
+      "app_article_title_color": "#FFFFFF",
+      "app_article_description_color": "#FFFFFF",
+      "app_article_cell_gradient_color": "#000000",
+      "app_article_cell_type": "parallax",
+      "email_reply_to": "support@magloft.com",
+      "email_sender_name": "MagLoft - Digital Magazines",
+      "app_rating_options": {
+        "enabled": true,
+        "daysUntilPrompt": 2,
+        "usesUntilPrompt": 3
+      },
+      "app_article_options": {
+        "production": true,
+        "development": true
+      },
+      "app_log_options": {
+        "enabled": false,
+        "severity": "error"
+      },
+      "app_google_analytics_ids": [
+        "UA-65032584-4",
+        "UA-65032584-5"
+      ],
+      "countly_app_key": "a6d2d6a4dccdff87044e0a16b39d193cd6b1725c",
+      "countly_app_key_mobile": "a6d2d6a4dccdff87044e0a16b39d193cd6b1725c",
+      "app_ui_tutorials": false,
+      "gtag_measurement_id": "G-TM0D5KTXE6",
+      "app_languages": {},
+      "app_enable_contact_us": true,
+      "app_enable_share_issue": true,
+      "app_enable_share_article": true,
+      "enable_issue_landing_page": true,
+      "app_nav_background_color": "#0f75bc",
+      "app_nav_title_color": "#fffefe",
+      "app_nav_button_color": "#fffefe",
+      "app_shelf_color_top": "#fefffe",
+      "app_shelf_color_bottom": "#fefffe",
+      "app_preview_background_color": "#f5f5f5",
+      "app_issue_cell_background_color": "#f5f5f5",
+      "app_preview_title_color": "#000000",
+      "app_issue_title_color": "#000000",
+      "app_preview_info_color": "#212121",
+      "app_issue_info_color": "#212121",
+      "app_action_button_background_color": "#38cc2f",
+      "app_archive_button_background_color": "#9F1F1F",
+      "app_subscribe_button_background_color": "#2737ad",
+      "app_action_button_title_color": "#FFFFFF",
+      "app_archive_button_title_color": "#dbb761",
+      "app_subscribe_button_title_color": "#FFFFFF",
+      "app_issue_cover_background_color": "#FFFFFF",
+      "app_sidebar_background_color": "#c21818",
+      "app_sidebar_icon_color": "#ffffff",
+      "app_sidebar_text_color": "#ffffff",
+      "app_banners": [{
+        "size": "cover",
+        "image": "secure/image/png/181ee032-47f8-4e5a-b0ac-0cee6d173180/image.png",
+        "index": 1,
+        "fileType": "image",
+        "action_type": "sign-in",
+        "action_value": "",
+        "image_mobile": "secure/102/image_mobile/e1abc7da-c07d-439d-b166-fdd56e88efa7/image_mobile.png",
+        "background_color": "rgb(255,255,255)"
+      }],
+      "app_pages": []
+    },
+    "access_token": ""
+  },
+  "manifest": [],
+  "purchases": {
+    "issues": [],
+    "subscribed": false,
+    "optin": {
+      "registered": false,
+      "validated": false
+    }
+  }
+}

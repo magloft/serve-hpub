@@ -1,2 +1,3 @@
-/node_modules/*
-/issue.hpub/*
+node_modules/
+build/
+*.hpub/
