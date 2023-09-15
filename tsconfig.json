@@ -2,7 +2,8 @@
   "extends": "@magloft/devkit-core/tsconfig.json",
   "compilerOptions": {
     "outDir": "build/",
-    "rootDir": "src/"
+    "rootDir": "src/",
+    "module": "CommonJS"
   },
   "files": ["src/index.ts"],
   "include": ["src/**/*"],
