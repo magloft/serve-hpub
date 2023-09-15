@@ -48,7 +48,7 @@ export function serve({ glob, hostname, port }: ServeArgs) {
 
   app.get('/info.json', function (req, res) {
     res.json({
-      ...payload, manifest: sync('**/*.hpub').map((name, index) => {
+      ...payload, manifest: sync(glob).map((name, index) => {
         return getManifest(hostname, port, name, index)
       })
     })
