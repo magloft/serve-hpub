@@ -1,6 +1,5 @@
 import { capitalCase } from 'change-case'
 import { basename, extname } from 'path'
-import { ipAddress, port } from './network'
 
 export interface ManifestEntry {
   id: number
@@ -16,7 +15,7 @@ export interface ManifestEntry {
   categories: string[]
 }
 
-export function getManifest(name: string, index: number): ManifestEntry {
+export function getManifest(hostname: string, port: number, name: string, index: number): ManifestEntry {
   return {
     id: index + 1,
     name: name,
@@ -26,8 +25,8 @@ export function getManifest(name: string, index: number): ManifestEntry {
     screenshots: [],
     info: name,
     date: '2018-01-01 00:00:00',
-    url: `http://${ipAddress}:${port}/hpub/${name}`,
-    cover: `http://${ipAddress}:${port}/${name}/cover.png`,
+    url: `http://${hostname}:${port}/hpub/${name}.hpub`,
+    cover: `http://${hostname}:${port}/${name}/cover.png`,
     categories: []
   }
 }

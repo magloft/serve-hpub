@@ -5,6 +5,6 @@
     "type": "node",
     "request": "launch",
     "program": "${workspaceFolder}/node_modules/.bin/ts-node",
-    "args": ["${workspaceRoot}/src/index.ts"]
+    "args": ["${workspaceRoot}/src/index.ts", "-g", "build/"]
   }]
 }

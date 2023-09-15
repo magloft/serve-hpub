@@ -12,7 +12,7 @@
     "**/.DS_Store": true,
     "**/.git": true,
     "**/node_modules": true,
-    "**/build": true,
+    "**/build": false,
     "**/*.log": true
   },
   "files.insertFinalNewline": true,
